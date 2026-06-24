@@ -1,0 +1,32 @@
+{
+  "T1110": {
+    "name": "Brute Force",
+    "keywords": ["failed password", "invalid user", "authentication failure", "authentication failed", "login failed", "brute force", "failed login"],
+    "regex": ["failed password for", "authentication failure", "invalid user", "password for invalid user"]
+  },
+  "T1110.001": {
+    "name": "Password Guessing",
+    "keywords": ["password guess", "guessing password", "password spraying", "spray"],
+    "regex": ["password spraying", "password guess"]
+  },
+  "T1110.003": {
+    "name": "Password Spraying",
+    "keywords": ["password spraying", "spray", "sprayed"],
+    "regex": ["password spraying", "password-spray"]
+  },
+  "T1087": {
+    "name": "Account Discovery",
+    "keywords": ["user list", "enumerat", "list users", "getent", "id ", "whoami", "user enumeration", "failed user"],
+    "regex": ["enumerat", "user(s)? enumeration", "getent", "whoami"]
+  },
+  "T1078": {
+    "name": "Valid Accounts",
+    "keywords": ["valid user", "valid account", "successful login", "accepted password", "session opened for user"],
+    "regex": ["accepted password for", "session opened for user", "successful login"]
+  },
+  "T1021.004": {
+    "name": "SSH",
+    "keywords": ["sshd", "ssh", "openssh", "ssh connection", "ssh login"],
+    "regex": ["sshd", "ssh"]
+  }
+}

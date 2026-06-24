@@ -1,0 +1,10 @@
+<group>
+  <rule id="5710">
+    <description>Attempt to login using a non-existent user</description>
+    <group>authentication</group>
+    <group>ssh</group>
+    <frequency>5</frequency>
+    <correlation>5711</correlation>
+    <mitre>T1110</mitre>
+  </rule>
+</group>
